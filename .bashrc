@@ -94,6 +94,7 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 set -o vi
+set show-mode-in-prompt on
 
 # enable bash completion
 # source /usr/share/bash-completion/bash_completion
