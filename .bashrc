@@ -119,6 +119,9 @@ fi
 set -o vi
 set show-mode-in-prompt on
 
+export VISUAL=vi
+export EDITOR="$VISUAL"
+
 # enable bash completion
 # source /usr/share/bash-completion/bash_completion
 alias k=kubectl
